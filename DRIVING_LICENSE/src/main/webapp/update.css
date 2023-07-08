@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+form {
+	border: 3px solid black;
+	height: 200px;
+	width: 380px;
+	margin: auto;
+	margin-top: 150px;
+	background: rgba(118, 128, 131, 0.6);
+	padding: 45px;
+	box-shadow: 10px 20px 30px rgb(27, 28, 29);
+	border-radius: 50px 0 50px 0;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	margin-top: -10px;
+}
+
+body {
+	background-image: url(./nature.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 700px;
+}
+
+label {
+	width: 175px;
+	display: inline-block;
+	margin: 10px;
+	color: white;
+	font-size: large;
+	font-style: normal;
+	font-weight: 900;
+	padding-bottom: 20px;
+}
+
+input {
+	width: 130px;
+	height: 25px;
+	color: aliceblue;
+	border-radius: 10px 0 10px 0;
+	border: 2px solid rgb(245, 241, 241);
+	margin-bottom: 10px;
+	background: transparent;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#select_box {
+	width: 180px;
+	height: 25px;
+	color: aliceblue;
+	border-radius: 10px 0 10px 0;
+	border: 2px solid rgb(245, 241, 241);
+	margin-bottom: 10px;
+	background: transparent;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+::placeholder {
+	color: rgb(182, 216, 162);
+}
+
+.but {
+	display: inline-block;
+	width: 100px;
+	margin: 20px 0px 0px 45px;
+	margin-right: 40px;
+	margin-bottom: 3px;
+	color: white;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.but:hover {
+	border: 2px solid red;
+	color: red;
+	cursor: pointer;
+}
+
+input:hover {
+	border: 3px solid rgb(224, 250, 164);
+}
+
+.but:active {
+	border: 2px solid rgb(8, 8, 8);
+	color: rgb(10, 10, 10);
+}
